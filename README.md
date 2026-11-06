@@ -28,8 +28,8 @@ backend/                  # FastAPI (Python 3.12)
 ├── docker-compose.yml    # PostgreSQL+PostGIS, Redis, MinIO, API
 └── Makefile              # run / migrate / upgrade / test / up
 
-frontend/                 # SPA (Vite + React + TS) — каркас папок
 docs/                     # API.md, ARCHITECTURE.md
+# Примечание: фронтенд (SPA) разрабатывается отдельно — этот репозиторий содержит только бэкенд.
 ```
 
 ## Быстрый старт
